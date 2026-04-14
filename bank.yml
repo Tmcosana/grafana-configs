@@ -1,0 +1,12 @@
+apiVersion: 1
+
+datasources:
+  - name: World Bank - South Africa
+    uid: south-africa-unemployment
+    type: yesoreyeram-infinity-datasource
+    access: proxy
+    isDefault: true
+    editable: false
+    jsonData:
+      allowedHosts:
+        - https://api.worldbank.org/
